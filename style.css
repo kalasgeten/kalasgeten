@@ -1,145 +1,0 @@
-body {
-  background-color: white;
-  font-family: "gill sans", sans-serif;
-}
-.header {
-  margin: 100px;
-}
-
-body {/* DETTA ÄR MENYN PÅ SIDAN*/
-  font-family: "Gill sans", sans-serif;
-}
-.sidenav img{
-  border: 0px solid white;
-  width: 95%;
-  float: none;
-  margin: auto;
- border: 3px white;
- padding: 0px;
-}
-.sidenav {
-  height: 100%;
-  width: 260px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: none;
-  overflow-x: hidden;
-  padding-top: 10px;
-}
-
-.sidenav a {
-  padding: 0px 10px 10px 25px;
-  text-decoration: none;
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #775b44;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #da8181;
-}
-
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 0px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}/* SLUTET PÅ SIDMENYN*/
-
-
-.center {
-    left: 0;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    border-bottom: 10px dotted gray;
-    padding-bottom: 16px;
-    margin-bottom: 4px;
-}
-.container {
-    margin-left: 270px;
-    margin-right: auto;
-    width:80%;
-    border-bottom: 1 px dotted black;
-}
-
-.container:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.myfooter {
-  border-top: 1px solid grey;
-  padding-bottom: 12px;
-
-}
-a {
-    color: black;
-    padding: 10px;
-    font-size: 11px;
-    text-transform: uppercase;
-}
-
-a:hover {
-    color: red;
-    text-decoration: none;
-}
-.gallery {
-  text-align: center;
-}
-.gallery-item {
-  margin: 4px;
-  border: 0px solid white;
-  width: 400px;
-  float: left;
-}
-.gallery-item a {
-  padding: 0px;
-}
-.gallery-item a:hover {
-  border: 1px; solid black;
-}
-.gallery-item img {
-  width: 100%;
-  height: auto;
-}
-.description {
-  padding: 10px;
-  transform-origin: 65% 75%;
-  transition: 3s, filter 2s ease-out;
-}
-.description:hover {
-  transform: translate(100px, 200px)
-}
-
-@media screen and (max-width: 1560px) { 
-    /* .gallery { 
-        background-color: green;   } */ 
-    .container { 
-      width:100%; 
-    } 
-    .gallery { 
-      width:100% 
-      } 
-  }
-  @media screen and (max-width: 1400px)
-    {   /* .gallery { 
-      background-color: grey; 
-      } */  
-    .gallery-item { 
-      max-width: 30%;
-
-    } }
-  @media screen and  (max-width: 800px) { 
-        /* .gallery { 
-        background-color: yellow;   } */ 
-        .gallery-item  { 
-          min-width: 100%;
-   } }
