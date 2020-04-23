@@ -1,0 +1,214 @@
+body {
+  background-color: #cdc6c4;
+  font-family: "gill sans", sans-serif;
+}
+.header {
+  margin: 100px;
+}
+
+
+  .sidenav {
+    height: 100%;
+    width: 260px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: none;
+    overflow: auto;
+  }
+
+.sidenav img{
+  width: 150px;
+  float: none;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+ border: 3px white;
+ padding: 0px;
+}
+
+.static {
+  width: 70%;
+  position:absolute;
+  background:
+}
+
+.static:hover {
+  opacity:0;
+}
+
+.sidenav a {
+  padding: 0px 10px 10px 25px;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #775b44;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #da8181;
+}
+
+.main {
+  margin-left: 260px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+.insta img {
+  width: 12%;
+  height: 12%;
+}
+
+.insta:hover {
+    opacity: 0.5;
+}
+
+/* SLUTET PÅ SIDMENYN*/
+
+.content {
+  margin-left: 260px;
+  height: 1000px;
+  padding: 40px;
+  }
+
+    .container__image {
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        margin: 20px;
+    }
+    .container__text {
+        display: inline-block;
+        width: 46%;
+        }
+
+h2 {
+  font-family: "gill sans";
+  color: #c1a8a0;
+font-weight: 300;
+  font-size: 38px;
+}
+p {
+  font-size: 16px;
+  color: #775b44;
+  font-family: "baskerville";
+}
+h3 {
+  font-family: "gill sans";
+  color: #c1a8a0;
+  font-weight: 300;
+  font-size: 24px;
+}
+h4 {
+  font-family: "gill sans";
+  color: LIGHTgray;
+  font-size: 16px;
+}
+
+
+/*FLYGANDE RALL GIF*/
+
+.footerimage img {
+  width: 10%;
+  position: fixed;
+  right: 0px;
+  bottom: 10px;
+  z-index:1000
+}
+
+.still {
+  position: absolute;
+  z-index: 1;
+}
+
+.still:hover {
+  opacity: 0;
+}
+.moving {
+  position:absolute;
+}*/
+/*SLUT RALL KNAPP*/
+
+.myfooter {
+  width: 100%;
+  height: 30px;
+}
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 0;
+    position: relative;
+  }
+  .sideimg a {
+    float: right;
+  }
+  div.links {
+    margin: auto;
+    float: none;
+  }
+  div.sideimg img .active {
+    float: right;
+    height: 50%;
+  }
+  .insta {
+    float: none;
+    width: 50%;
+  }
+  div.content {
+    margin: 0;
+    width: 100%;
+  }
+
+  div.container {
+    margin: 0;
+    width: 100%;
+  }
+.medelstor {
+  width: 100%;
+}
+.stor {
+  width: 100%
+}
+.liten {
+  width: 100%
+}
+
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidenav {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: 0;
+    position: relative;
+  }
+  .sideimg a {
+    float: right;
+  }
+  .links {
+    margin: auto;
+    float: none;
+  }
+  .sideimg img .active {
+    float: right;
+    height: 50%;
+  }
+  .insta {
+    float: none;
+    width: 50%;
+  }
+  div.container {
+    margin: 0;
+    width: 100%;
+  }
+
+}
