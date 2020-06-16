@@ -243,6 +243,9 @@ body {
 .img-box-stor {
   width: 100%
 }
+.footerimage {
+  display: none;
+}
 
 }
 
