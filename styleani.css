@@ -3,6 +3,8 @@ body {
   font-family: "gill sans", sans-serif;
 }
 
+html, body {width: auto!important; overflow-x: hidden!important}
+
 .header {
   margin: 100px;
 }
@@ -211,12 +213,16 @@ body {
     width: 100%;
     height: auto;
     float: none;
+    padding-top: 50px;
     margin: 0;
     position: relative;
   }
 
   .sideimg a {
-    float: right;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   div.links {
     margin: auto;
@@ -232,22 +238,21 @@ body {
   }
   div.container {
     margin: 0;
-    width: 100%;
   }
-.img-box-liten {
+  .img-box-liten {
   width: 100%;
-}
-.img-box-medel {
+  }
+  .img-box-medel {
   width: 100%
-}
-.img-box-stor {
+  }
+  .img-box-stor {
   width: 100%
-}
-.footerimage {
+  }
+  .footerimage {
   display: none;
-}
+  }
 
-}
+  }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {

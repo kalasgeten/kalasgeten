@@ -2,6 +2,9 @@ body {
   background-color: white;
   font-family: "gill sans", sans-serif;
 }
+
+html, body {width: auto!important; overflow-x: hidden!important}
+
 .header {
   margin: 100px;
 
@@ -97,11 +100,16 @@ body {
     width: 100%;
     height: auto;
     float: none;
+    padding-top: 50px;
     margin: 0;
     position: relative;
   }
+
   .sideimg a {
-    float: right;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   div.links {
     margin: auto;
@@ -117,17 +125,21 @@ body {
   }
   div.container {
     margin: 0;
-    width: 100%;
   }
-.medelstor {
+  .img-box-liten {
   width: 100%;
-}
-.stor {
+  }
+  .img-box-medel {
   width: 100%
-}
-.liten {
+  }
+  .img-box-stor {
   width: 100%
-}
+  }
+  .footerimage {
+  display: none;
+  }
+
+  }
 
 /*FLYGANDE RALL GIF*/
 
