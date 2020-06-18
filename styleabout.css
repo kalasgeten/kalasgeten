@@ -169,12 +169,22 @@ h4 {
     float: none;
     width: 50%;
   }
-  div.container {
+
+
+  div.content {
     margin: 0;
+    width: 100;
   }
-  .img-box-liten {
+
+div.content img {
+  size: 75%;
+
+}
+
+  div.container__text {
   width: 100%;
   }
+
   .img-box-medel {
   width: 100%
   }
@@ -211,9 +221,18 @@ h4 {
     float: none;
     width: 50%;
   }
-  div.container {
-    margin: 0;
+
+    div.content {
+      margin: 0;
+      width: 100;
+    }
+
+    div.content img {
+      size: 75%;
+    }
+
+    div.container__text {
     width: 100%;
-  }
+    }
 
 }
