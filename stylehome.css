@@ -126,20 +126,20 @@ html, body {width: auto!important; overflow-x: hidden!important}
   div.container {
     margin: 0;
   }
-  .img-box-liten {
+.img-box-liten {
   width: 100%;
-  }
-  .img-box-medel {
+}
+.img-box-medel {
   width: 100%
-  }
-  .img-box-stor {
+}
+.img-box-stor {
   width: 100%
-  }
-  .footerimage {
+}
+.footerimage {
   display: none;
-  }
+}
 
-  }
+}
 
 /*FLYGANDE RALL GIF*/
 
