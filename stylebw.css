@@ -201,8 +201,9 @@ html, body {width: auto!important; overflow-x: hidden!important}
 }
 /*SLUT RALL KNAPP*/
 
-.footerbackground {
-  width: 100%;
+.footerbackground img {
+  width: 50%;
+  height: auto;
   text-align: center;
   position: relative;
 }
