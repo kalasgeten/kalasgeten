@@ -206,6 +206,21 @@ html, body {width: auto!important; overflow-x: hidden!important}
 }
 
 
+.footerbackground {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.footertext {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: white;
+}
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
