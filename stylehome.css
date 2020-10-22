@@ -71,12 +71,17 @@ html {
 }
 
 /* SLUTET PÅ SIDMENYN*/
+
+/* Scroll i toppen */
+
 .roll {
   background-color: none;
   margin: 10px;
 height: 40px;
 width: 100%;
+position: absolute;
 }
+
 
 p1 {
   color: #775b44;
