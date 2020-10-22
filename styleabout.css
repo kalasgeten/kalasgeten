@@ -1,5 +1,5 @@
 body {
-  background-color: #d5cdcb !important;
+  background-color: #d8d4d2 !important;
   font-family: "gill sans", sans-serif !important;
 }
 
@@ -73,7 +73,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 .container-block {
   max-width: 100%;
-  background-image: url("/imgabout/red8.1.jpg");
+  background-image: url("/imgabout/red8.jpg");
   min-height: 210px; 
   background-attachment: fixed;
   background-position: center;
@@ -118,19 +118,18 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
         .container-block2 {
           max-width: 100%;
-          background-image: url("/imgabout/prickarrosa.jpg");
+          background-image: url("/imgabout/prickarpink1.jpg");
           min-height: 400px; 
           background-attachment: fixed;
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-          margin-left: 260px;
         }
 
 
 
 
-        /* Scroll i toppen */
+/* Scroll i toppen */
 
 .roll {
   background-color: none;
@@ -147,12 +146,12 @@ p1 {
 }
 
 
-/* Stilen på texten om mig */
+/* Stilen på texten*/
 
 h2 {
   font-family: "gill sans";
   color: #7e634d;
-font-weight: 300;
+  font-weight: 300;
   font-size: 38px;
 }
 p {
@@ -173,7 +172,7 @@ h4 {
 }
 
 
-/*FLYGANDE RALL GIF*/
+/*Liten rall animation nere i hörnet GIF*/
 
 .footerimage img {
   width: 10%;
@@ -196,6 +195,8 @@ h4 {
 }
 
 /*SLUT RALL KNAPP*/
+
+/* Någon slags footer */
 
 .footerbackground {
   width: 100%;
