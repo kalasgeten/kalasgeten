@@ -281,6 +281,7 @@ div.content img {
 
   .container-block2 {
     width: 100%;
+    background-size: contain;
   }
 
 
@@ -324,6 +325,7 @@ div.content img {
 
   .container-block2 {
     width: 100%;
+    background-size: contain;
 
   }
 
