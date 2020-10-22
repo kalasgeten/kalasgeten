@@ -71,6 +71,20 @@ html {
 }
 
 /* SLUTET PÅ SIDMENYN*/
+.roll {
+  background-color: none;
+  margin: 10px;
+height: 40px;
+width: 100%;
+}
+
+p1 {
+  color: #775b44;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
 
 .container {
   margin-left: 40PX;
