@@ -76,16 +76,16 @@ html {
 
 .roll {
   background-color: none;
-height: 40px;
-width: 100%;
-position: absolute;
+  height: 40px;
+  width: 100%;
+  position: fixed;
 }
 
 
 p1 {
   color: #775b44;
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 
