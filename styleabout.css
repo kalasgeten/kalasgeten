@@ -118,7 +118,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
         .container-block2 {
           max-width: 100%;
-          background-image: url("/imgabout/serie1.jpg");
+          background-image: url("/imgabout/prickarrosa.jpg");
           min-height: 400px; 
           background-attachment: fixed;
           background-position: center;
@@ -273,6 +273,16 @@ div.content img {
   display: none;
   }
 
+  .container-block {
+    width: 100%;
+    background-size: contain;
+  }
+
+  .container-block2 {
+    width: 100%;
+  }
+
+
   }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
@@ -305,6 +315,16 @@ div.content img {
     width: 100%;
   }
 
+  .container-block {
+    width: 100%;
+    background-size: contain;
+
+  }
+
+  .container-block2 {
+    width: 100%;
+
+  }
 
   .content img {
       size: 75%;
