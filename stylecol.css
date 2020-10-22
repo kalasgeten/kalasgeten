@@ -32,7 +32,6 @@ html, body {width: auto!important; overflow-x: hidden!important}
   .static {
     width: 70%;
     position:absolute;
-    background:
   }
 
   .static:hover {
@@ -69,13 +68,13 @@ html, body {width: auto!important; overflow-x: hidden!important}
 /* SLUTET PÅ SIDMENYN*/
 
 
-.container {
+.container-own {
   margin-left: 260px;
   height: auto;
   padding: 40px;
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img-box-liten {
@@ -180,6 +179,24 @@ html, body {width: auto!important; overflow-x: hidden!important}
     background-color: white;
 }
 
+/* Scroll i toppen */
+
+.roll {
+  background-color: none;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+}
+
+
+p1 {
+  color: #775b44;
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+
 
 
 
@@ -212,7 +229,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     float: none;
     width: 50%;
   }
-  div.container {
+  div.container-own {
     margin: 0;
   }
   .img-box-liten {
@@ -254,7 +271,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     float: none;
     width: 50%;
   }
-  div.container {
+  div.container-own {
     margin: 0;
     width: 100%;
   }

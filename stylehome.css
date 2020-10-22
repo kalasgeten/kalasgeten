@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: "gill sans", sans-serif;
+  font-family: "gill sans", sans-serif !important;
 }
 
 html, body {width: auto!important; overflow-x: hidden!important}

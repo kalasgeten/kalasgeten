@@ -1,6 +1,6 @@
 body {
-  background-color: #cdc6c4;
-  font-family: "gill sans", sans-serif;
+  background-color: #d5cdcb !important;
+  font-family: "gill sans", sans-serif !important;
 }
 
 html, body {width: auto!important; overflow-x: hidden!important}
@@ -41,16 +41,16 @@ html, body {width: auto!important; overflow-x: hidden!important}
 }
 
 .sidenav a {
-  padding: 0px 10px 10px 25px;
-  text-decoration: none;
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #775b44;
+  padding: 0px 10px 10px 25px !important;
+  text-decoration: none !important;
+  font-size: 12px !important;
+  letter-spacing: 2px !important;
+  color: #775b44 !important;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #da8181;
+  color: #da8181 !important;
 }
 
 .main {
@@ -69,26 +69,90 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 /* SLUTET PÅ SIDMENYN*/
 
+/* Parallax 1 i toppen */
+
+
+.container-block {
+  max-width: 100%;
+  background-image: url("/imgabout/red8.1.jpg");
+  min-height: 210px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Bild och text */
+
 .content {
-  margin-left: 260px;
-  height: 1000px;
-  padding: 40px;
+  margin-left: 100px !important;
+  padding: 80px;
+  margin: 2%;
   }
 
-    .container__image {
-        display: inline-block;
-        vertical-align: top;
-        width: 46%;
-        margin: 20px;
-    }
+  .content img {
+    padding: 20px;
+  }
+
     .container__text {
-        display: inline-block;
-        width: 46%;
+        padding: 20px;
         }
+
+        .still-1 {
+          position: absolute;
+          z-index: 1;
+        }
+        
+        .still-1:hover {
+          opacity: 0;
+        }
+        .moving-1 {
+          position:absolute;
+        }
+
+    
+      
+
+
+/* Paralax 2 under texten */
+
+
+        .container-block2 {
+          max-width: 100%;
+          background-image: url("/imgabout/serie1.jpg");
+          min-height: 400px; 
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          margin-left: 260px;
+        }
+
+
+
+
+        /* Scroll i toppen */
+
+.roll {
+  background-color: none;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+}
+
+p1 {
+  color: #775b44;
+  font-style: italic;
+  font-size: 12px !important;
+  letter-spacing: 2px !important;
+}
+
+
+/* Stilen på texten om mig */
 
 h2 {
   font-family: "gill sans";
-  color: #c1a8a0;
+  color: #7e634d;
 font-weight: 300;
   font-size: 38px;
 }
@@ -99,7 +163,7 @@ p {
 }
 h3 {
   font-family: "gill sans";
-  color: #c1a8a0;
+  color: #7e634d;
   font-weight: 300;
   font-size: 24px;
 }
@@ -189,7 +253,15 @@ h4 {
 
 div.content img {
   size: 75%;
+  position: relative;
+}
 
+.stilla {
+    display: none;
+}
+
+.content {
+  margin: 0;
 }
 
   div.container__text {
@@ -238,9 +310,17 @@ div.content img {
       width: 100;
     }
 
+    .content {
+      margin: 0;
+    }
+
     div.content img {
       size: 75%;
     }
+
+    .stilla {
+      display: none;
+  }
 
     div.container__text {
     width: 100%;
