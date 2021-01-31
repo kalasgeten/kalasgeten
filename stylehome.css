@@ -1,76 +1,97 @@
 body {
-  background-color: white;
-  font-family: "gill sans", sans-serif !important;
+  background-color: #fffaf1;
+  font-family: 'lato', sans-serif !important;
 }
 
 html, body {width: auto!important; overflow-x: hidden!important}
 
-.header {
-  margin: 100px;
-}
 
 html {
   cursor: url("img/welcome.png"), default;
 }
 
-  .sidenav {
-    height: 100%;
-    width: 260px;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    background-color: none;
-    overflow: auto;
-  }
+/* Menyn style */
 
-.sidenav img{
+.navbar {
+  background-color: transparent !important;
+}
+
+.containernavbar {
+  text-align: top !important;
+  padding: none;
+  background-color: transparent !important;
+}
+
+.navbarimg {
   width: 150px;
-  float: none;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
- border: 3px white;
- padding: 0px;
 }
 
 .static {
-  width: 70%;
-  position:absolute;
-  background:
+  position: absolute;
+  z-index: 1;
 }
 
 .static:hover {
   opacity:0;
 }
 
-.sidenav a {
-  padding: 0px 10px 10px 25px;
-  text-decoration: none;
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #775b44;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #da8181;
-}
-
-.main {
-  margin-left: 260px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 0px;
-}
-.insta img {
-  width: 12%;
-  height: 12%;
+.insta {
+  width: 25px;
+  max-width: 50px;
 }
 
 .insta:hover {
     opacity: 0.5;
 }
 
-/* SLUTET PÅ SIDMENYN*/
+.navbar p1:hover {
+  color: rgb(165, 139, 139);
+  text-decoration: none;
+}
+
+
+
+h1 {
+  color: #66574b;
+  font-size: 34px;
+  letter-spacing: 2px;
+  font-family: 'Barriecito', cursive;
+}
+
+h2 {
+  color: #61544a;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: 'lato', sans-serif;
+
+}
+
+h3 {
+  color: #66574b;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: 'Barriecito', cursive;
+}
+
+h4 {
+  color: #61544a;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: 'lato', sans-serif;
+
+}
+
+/*
+  'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'Lacquer', cursive;
+  font-family: 'Barriecito', cursive;
+  font-family: 'Do Hyeon', sans-serif;
+
+  font-family: 'puritan', sans-serif;
+    font-family: 'lato', sans-serif;
+
+  */
+
 
 /* Scroll i toppen */
 
@@ -81,38 +102,387 @@ html {
   position: fixed;
 }
 
+p2 {
+  color: #775b44;
+  font-style: italic;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-family: 'lato', sans-serif !important;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: rgb(165, 139, 139);
+} 
+
+.content p2:hover {
+  color: rgb(165, 139, 139);
+}
+
+a.footera:link {color:#775b44;}
+a.footera:visited {color:#775b44;}
+a.footera:hover  {color:rgb(165, 139, 139);}
+
 
 p1 {
   color: #775b44;
-  font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 2px;
+  font-family: 'lato', sans-serif;
+  text-decoration: none;
 }
 
+/* font-family: 'cabin', sans-serif;*/
 
-.container {
-  margin-left: 40PX;
-  height: 800px;
-  padding: 0px;
-
+p3 {
+  color: #775b44;
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-family: 'lato', sans-serif;
 }
 
-.medelstor {
-  width: 49%;
-}
-.liten {
-  width: 33%;
-}
-.stor {
-  vertical-align: middle TOP;
+.parallax {
+  background-image: url(img/lampshop.jpg);
+  min-height: 300px; 
   width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.myfooter {
-  border-top: 1px;
-  padding-bottom: 20px;
-    vertical-align: right;
+.parallax2 {
+  background-image: url(img/patternsdeco/strossel.jpg);
+  min-height: 300px; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.parallax3 {
+  background-image: url(imgabout/red8.1.jpg);
+  min-height: 300px; 
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Drag and drop */
+
+#mydiv {
+  position: relative;
+  z-index: 9;
+  padding-left: 85%;
+  background-color: none;
+  text-align: center;
+  border: none;
+}
+
+#mydiv2 {
+  position: absolute;
+  z-index: 9;
+  background-color: none;
+  text-align: center;
+  border: none;
+}
+
+
+.dragimg {
+  width: 110px;
+  position: absolute;
+  padding-top: 20px;
+  cursor: grab;
+}
+
+
+#dragimg {
+  max-width: 30px;
+  cursor: move;
+  z-index: 10;
+  color: #fff;
+}
+
+/* Bug divider */ 
+
+.bugimg {
+  width: 50%;
+}
+
+/* Bild och text about */
+
+.content {
+  padding: 80px;
+  margin: 2%;
+  }
+
+  .content img {
+    padding: 20px;
+  }
+
+    .container__text {
+        padding: 20px;
+        }
+
+        .still-1 {
+          position: absolute;
+          z-index: 1;
+        }
+        
+        .still-1:hover {
+          opacity: 0;
+        }
+        .moving-1 {
+          position:absolute;
+        }
+
+/* Slut bild & text about */
+
+/* Till bildgalleriet tror jag */
+
+.flex-column { 
+  max-width : 500px;
+}
+
+/* OVERLAY på ej klickbara bilder */
+.container1 {
+  position: relative;
+}
+
+.image1 {
+  display: block;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffaf1;
+  opacity: 70%;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .3s ease;
+}
+
+.container1:hover .overlay1 {
+  height: 100%;
+}
+
+.text1 {
+  position: absolute;
+  padding: 40px;
+  text-align: left;
+}
+
+/* OVERLAY på ej klickbara bilder */
+
+
+
+/* Test nya klickbara galleriet */
+
+
+.rad3 {
+  border-width: 10px;
+}
+
+/* Gallery CSS */
+.gallery-container {
+  position: relative;
+  width: 100%;
+  border-width: 10px;
+  border-color: #fffaf1;
+  border-style: solid;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffaf1;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .3s ease;
+}
+
+.gallery-container:hover .overlay {
+  height: 100%; 
+   opacity: 70%;
+}
+
+/* Vet ej vad detta är */
+.text {
+  font-family: 'lato', sans-serif;
+  font-size: 24px;
+  line-height: 1.3em;
+  color: red;
+  font-weight: bold; 
+}
+    .small{
+      font-family: 'lato', sans-serif;
+      font-size: 16px;
+      line-height: 1.3em;  
+      color: green;    
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: auto;
+}
+
+/* Modal CSS */
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0rem;
+}
+
+/*småbilderna i rutan*/
+.modal-thumbs{
+  min-height: 200px;
+  font-family: 'lato', sans-serif;
+    font-size: 24px;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: orange;
+    padding-left: 5px;
+  }
+  ul{
+    padding: 0;
+  }
+    .px-1 {
+      list-style: none;
+      width: 25%;
+      float: left;
+      @media (max-width: 768px) {
+        width: 50%;
+      }
+    }
+      .border {
+        display: inline-block;
+        position: relative;
+      }
+      .border::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        box-shadow: inset 0 0 0 0 rgba(255,255,255,.5);
+        transition: box-shadow .1s ease;
+        cursor: pointer;
+      }
+      .border:hover::after {
+        box-shadow: inset 0 0 0 10px rgba(255,255,255,.5);
+      }
+      img {
+        display: block;
+        position: relative;
+      }
+    
+  
+/* SLUT TEST GALLERI */
+
+
+/* Rotera 360 grader */
+
+.rotate1 {
+  animation: rotation 8s infinite linear;
+  max-width: 60px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* Zoom effekt */
+
+.zoom {
+  background-color: none;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+  
+.vert-move {
+  width: 100px;
+}
+
+    /* Animation hovering */
+
+    img.vert-move {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+    }
+    img.vert-move {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+    }
+    @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+    @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+    
+
+/*FLYGANDE RALL GIF*/
+
+.footerimage img {
+  width: 10%;
+  position: fixed;
+  right: 0px;
+  bottom: 10px;
+  z-index:1000
+}
+
+.still {
+  position: absolute;
+  z-index: 1;
+}
+
+.still:hover {
+  opacity: 0;
+}
+.moving {
+  position:absolute;
+}
+/*SLUT RALL KNAPP*/
 
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -147,47 +517,57 @@ p1 {
   div.container {
     margin: 0;
   }
-.img-box-liten {
-  width: 100%;
-}
-.img-box-medel {
-  width: 100%
-}
-.img-box-stor {
-  width: 100%
-}
+
 .footerimage {
   display: none;
 }
 
+.mydiv {
+  display: none;
+  }
+
+  .dragimg {
+    display: none;
+  }
+
+  .footerh1 h1 {
+    font-size: 26px;
+  }
+
+  .footerp1 p1 {
+    font-size: 16px;
+  }
+
+  .moving-1 {
+    display: none;
+    padding: 0;
+  }
+
+  .stilla {
+    display: none;
+    padding: 0px;
+        }
+
+  .still-1 {
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+  }
+  
+  .moving-1 {
+    position: relative;
+    padding: 0px;
+  }
+
+  .content {
+    padding: 30px;
+  }
+
 }
 
-/*FLYGANDE RALL GIF*/
-
-.footerimage img {
-  width: 10%;
-  position: fixed;
-  right: 0px;
-  bottom: 10px;
-  z-index:1000
-}
-
-.still {
-  position: absolute;
-  z-index: 1;
-}
-
-.still:hover {
-  opacity: 0;
-}
-.moving {
-  position:absolute;
-}
-/*SLUT RALL KNAPP*/
 
 .myfooter {
   width: 100%;
-  height: 30px;
 }
 
 
@@ -221,4 +601,46 @@ p1 {
     width: 100%;
   }
 
+  .mydiv {
+    display: none;
+    }
+
+    .dragimg {
+      display: none;
+    }
+
+    .footerh1 h1 {
+      font-size: 26px;
+    }
+
+    .footerp1 p1 {
+      font-size: 16px;
+    }
+
+    .moving-1 {
+      display: none;
+      padding: 0px;
+    }
+
+    .stilla {
+  display: none;
+  padding: 0px;
+    }
+
+    .still-1 {
+      position: relative;
+      z-index: 1;
+      padding: 0px;
+    }
+    
+    .moving-1 {
+      position: relative;
+      padding: 0px;
+    }
+  
+    .content {
+      padding: 30px;
+    }
+
 }
+
