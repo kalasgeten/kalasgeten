@@ -567,13 +567,13 @@ p3 {
 .parallax { 
   background-image: url(img/lampshop.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   }
 
   .parallax2 { 
     background-image: url(img/patternsdeco/strossel.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     }
 
     .parallax3 { 
@@ -661,13 +661,13 @@ p3 {
 
     .parallax { 
       background-image: url(img/lampshop.jpg);
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       }
     
       .parallax2 { 
         background-image: url(img/patternsdeco/strossel.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         }
     
