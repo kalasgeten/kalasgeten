@@ -563,13 +563,30 @@ p3 {
     padding: 30px;
   }
 
-}
+
+.parallax { 
+  background-image: url("../images/bg_small.jpg");
+  background-size: 20% 20%;
+  background-repeat: repeat;
+  }
+
+  .parallax2 { 
+    background-image: url("../images/bg_small.jpg");
+    background-size: 20% 20%;
+    background-repeat: repeat;
+    }
+
+    .parallax3 { 
+      background-image: url("../images/bg_small.jpg");
+      background-size: 20% 20%;
+      background-repeat: repeat;
+      }
 
 
 .myfooter {
   width: 100%;
 }
-
+}
 
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
@@ -641,6 +658,24 @@ p3 {
     .content {
       padding: 30px;
     }
+
+    .parallax { 
+      background-image: url("../images/bg_small.jpg");
+      background-size: 20% 20%;
+      background-repeat: repeat;
+      }
+    
+      .parallax2 { 
+        background-image: url("../images/bg_small.jpg");
+        background-size: 20% 20%;
+        background-repeat: repeat;
+        }
+    
+        .parallax3 { 
+          background-image: url("../images/bg_small.jpg");
+          background-size: 20% 20%;
+          background-repeat: repeat;
+          }
 
 }
 
