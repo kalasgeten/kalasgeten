@@ -566,20 +566,20 @@ p3 {
 
 .parallax { 
   background-image: url(img/lampshop.jpg);
-  background-size: contain
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
   }
 
   .parallax2 { 
     background-image: url(img/patternsdeco/strossel.jpg);
-    background-size: contain
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
     }
 
     .parallax3 { 
       background-image: url(imgabout/red8.1.jpg);
       background-size: contain;
-      background-repeat: repeat;
+      background-repeat: no-repeat;
       }
 
 
@@ -662,19 +662,19 @@ p3 {
     .parallax { 
       background-image: url(img/lampshop.jpg);
       background-size: contain;
-      background-repeat: repeat;
+      background-repeat: no-repeat;
       }
     
       .parallax2 { 
         background-image: url(img/patternsdeco/strossel.jpg);
         background-size: contain;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         }
     
         .parallax3 { 
           background-image: url(imgabout/red8.1.jpg);
           background-size: contain;
-          background-repeat: repeat;
+          background-repeat: no-repeat;
           }
 
 }
