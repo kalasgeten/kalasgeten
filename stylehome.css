@@ -564,23 +564,23 @@ p3 {
   }
 
 
-.parallax { 
-  background-image: url(img/lampshop.jpg);
-  background-size: 20% 20%;
-  background-repeat: repeat;
-  }
-
-  .parallax2 { 
-    background-image: url(img/patternsdeco/strossel.jpg);
-    background-size: 20% 20%;
-    background-repeat: repeat;
+  .parallax { 
+    background-image: url(img/lampshop.jpg);
+    background-size: 50% 50%;;
+    
     }
-
-    .parallax3 { 
-      background-image: url(imgabout/red8.1.jpg);
-      background-size: 20% 20%;
-      background-repeat: repeat;
+  
+    .parallax2 { 
+      background-image: url(img/patternsdeco/strossel.jpg);
+      background-size: 50% 50%;
+    
       }
+  
+      .parallax3 { 
+        background-image: url(imgabout/red8.1.jpg);
+        background-size: 50% 50%;
+      
+        }
 
 
 .myfooter {
@@ -661,20 +661,20 @@ p3 {
 
     .parallax { 
       background-image: url(img/lampshop.jpg);
-      background-size: 20% 20%;
-      background-repeat: repeat;
+      background-size: 50% 50%;;
+      
       }
     
       .parallax2 { 
         background-image: url(img/patternsdeco/strossel.jpg);
-        background-size: 20% 20%;
-        background-repeat: repeat;
+        background-size: 50% 50%;
+      
         }
     
         .parallax3 { 
           background-image: url(imgabout/red8.1.jpg);
-          background-size: 20% 20%;
-          background-repeat: repeat;
+          background-size: 50% 50%;
+        
           }
 
 }
