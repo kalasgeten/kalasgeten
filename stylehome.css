@@ -1,5 +1,5 @@
 body {
-  background-color: #fffaf1;
+  background-color: #fafaf6 !important;
   font-family: 'lato', sans-serif !important;
 }
 
@@ -12,18 +12,155 @@ html {
 
 /* Menyn style */
 
-.navbar {
-  background-color: transparent !important;
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/* Custom Navmenu */
+.custom-navmenu {
+  background: #493f37;
 }
 
-.containernavbar {
-  text-align: top !important;
-  padding: none;
-  background-color: transparent !important;
+.custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
+.custom-navmenu .custom-menu li {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.custom-navmenu .custom-menu li a {
+  color: #fff;
+  padding: 10px 0 !important;
+}
+
+.custom-navmenu .custom-menu li a:hover {
+  text-decoration: none;
+}
+
+.custom-navmenu .custom-menu li.active a {
+  text-decoration: underline;
+}
+
+.custom-navmenu h3 {
+  font-size: 20px;
+  color: #fafaf6;
+}
+
+.custom-navmenu p1 {
+  color: #fafaf6;
+}
+
+.custom-navmenu p2 {
+  color: #faf3fe;
+  font-size: 14px;
+}
+
+.custom-navmenu a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-navmenu a:hover {
+  color: #fff;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  padding-top: 50px;
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  .custom-navbar > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.7rem;
+}
+
+/* Burger */
+.burger {
+  width: 28px;
+  height: 32px;
+  cursor: pointer;
+  position: relative;
+}
+
+.burger:before, .burger span, .burger:after {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: #000;
+  border-radius: 2px;
+  position: absolute;
+  opacity: 1;
+}
+
+.burger:before, .burger:after {
+  transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+  content: "";
+}
+
+.burger:before {
+  top: 4px;
+}
+
+.burger span {
+  top: 15px;
+}
+
+.burger:after {
+  top: 26px;
+}
+
+/* Hover */
+.burger:hover:before {
+  top: 7px;
+}
+
+.burger:hover:after {
+  top: 23px;
+}
+
+/* Click */
+.burger.active span {
+  opacity: 0;
+}
+
+.burger.active:before, .burger.active:after {
+  top: 40%;
+}
+
+.burger.active:before {
+  transform: rotate(45deg);
+}
+
+.burger.active:after {
+  transform: rotate(-45deg);
+}
+
+.burger:focus {
+  outline: none;
+}
+
+/* Storlek det vita header*/
+
+
+.section {
+  padding: 7rem 0;
+}
+
+/* tant img */
 .navbarimg {
-  width: 150px;
+  width: 90px;
 }
 
 .static {
@@ -35,14 +172,6 @@ html {
   opacity:0;
 }
 
-.insta {
-  width: 25px;
-  max-width: 50px;
-}
-
-.insta:hover {
-    opacity: 0.5;
-}
 
 .navbar p1:hover {
   color: rgb(165, 139, 139);
@@ -50,16 +179,15 @@ html {
 }
 
 
-
 h1 {
-  color: #66574b;
-  font-size: 34px;
+  color: #4b423a;
+  font-size: 3px;
   letter-spacing: 2px;
   font-family: 'Barriecito', cursive;
 }
 
 h2 {
-  color: #61544a;
+  color: #4b423a;
   font-size: 14px;
   letter-spacing: 2px;
   font-family: 'lato', sans-serif;
@@ -67,17 +195,22 @@ h2 {
 }
 
 h3 {
-  color: #66574b;
+  color:  #4b423a;
   font-size: 24px;
   letter-spacing: 2px;
   font-family: 'Barriecito', cursive;
 }
 
 h4 {
-  color: #61544a;
+  color: #4b423a;
   font-size: 16px;
   letter-spacing: 2px;
   font-family: 'lato', sans-serif;
+
+}
+
+.section button h3:hover {
+  text-decoration: none !important;
 
 }
 
@@ -86,6 +219,11 @@ h4 {
   font-family: 'Lacquer', cursive;
   font-family: 'Barriecito', cursive;
   font-family: 'Do Hyeon', sans-serif;
+   font-family: 'cabin', sans-serif;
+font-family: 'Amiri', serif;
+font-family: 'Overpass Mono', monospace;
+font-family: 'Crete Round', serif;
+font-family: 'Arbutus Slab', serif;
 
   font-family: 'puritan', sans-serif;
     font-family: 'lato', sans-serif;
@@ -130,7 +268,6 @@ p1 {
   font-size: 14px;
   letter-spacing: 2px;
   font-family: 'lato', sans-serif;
-  font-weight: ;
   text-decoration: none;
 }
 
@@ -142,6 +279,199 @@ p3 {
   letter-spacing: 1px;
   font-family: 'lato', sans-serif;
 }
+
+
+/* Kategorier work */
+
+
+.filters a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+
+.filters a:hover, .filters a:focus, .filters a:active {
+  text-decoration: none;
+}
+
+.filters a:hover:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.filters a.active {
+  color: #000;
+}
+
+.filters a.active:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+
+.item {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.item .item-wrap {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .item-wrap:after {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+
+.item .item-wrap img {
+  transition: .3s transform ease;
+  transform: scale(1);
+}
+
+.item .item-wrap > .work-info {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  transform: translateY(-50%);
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 20px;
+  transition: .3s all ease;
+}
+
+.item .item-wrap > .work-info h3 {
+  font-size: 24px;
+  color: #faf3fed9;
+  margin-bottom: 0;
+}
+
+.item .item-wrap > .work-info span {
+  font-size: 8px;
+  color: #faf3fedb;
+  
+}
+
+.item .item-wrap > .work-info p1 {
+  color: #faf3fecf;
+}
+
+
+.item .item-wrap:hover {
+  text-decoration: none;
+}
+
+.item .item-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.item .item-wrap:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item .item-wrap:hover .work-info {
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.testimonial-wrap {
+  padding: 50px 50px 80px 50px;
+  background: #eceff2;
+}
+
+.testimonial-wrap .testimonial {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonial-wrap .testimonial img {
+  border-radius: 50%;
+  width: 120px;
+  margin: 0 auto 30px auto;
+}
+
+.testimonial-wrap .testimonial blockquote p {
+  font-size: 20px;
+}
+
+/* Slut work kategori */ 
+
+/* Vet ej vad detta är */
+
+
+.readmore {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+  transition: .2s all ease;
+  font-weight: 700;
+}
+
+.readmore:active, .readmore:focus, .readmore:hover {
+  outline: none;
+}
+
+.readmore:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+}
+
+/* vet ej slut */ 
+
+
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 
 .parallax {
   background-image: url(img/lampshop.jpg);
@@ -285,127 +615,12 @@ p3 {
 
 
 
-/* Test nya klickbara galleriet */
+/* footer gubbe snurr */
 
-
-.rad3 {
-  border-width: 10px;
+.upknapp {
+  width: 70px;
 }
 
-/* Gallery CSS */
-.gallery-container {
-  position: relative;
-  width: 100%;
-  border-width: 10px;
-  border-color: #fffaf1;
-  border-style: solid;
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.1);
-  cursor: pointer;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #fffaf1;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .3s ease;
-}
-
-.gallery-container:hover .overlay {
-  height: 100%; 
-   opacity: 70%;
-}
-
-/* Vet ej vad detta är */
-.text {
-  font-family: 'lato', sans-serif;
-  font-size: 24px;
-  line-height: 1.3em;
-  color: red;
-  font-weight: bold; 
-}
-    .small{
-      font-family: 'lato', sans-serif;
-      font-size: 16px;
-      line-height: 1.3em;  
-      color: green;    
-}
-
-.carousel-control-next, .carousel-control-prev {
-  width: auto;
-}
-
-/* Modal CSS */
-
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-body {
-  position: relative;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 0rem;
-}
-
-/*småbilderna i rutan*/
-.modal-thumbs{
-  min-height: 200px;
-  font-family: 'lato', sans-serif;
-    font-size: 24px;
-    line-height: 1.3em;
-    font-weight: 700;
-    color: orange;
-    padding-left: 5px;
-  }
-  ul{
-    padding: 0;
-  }
-    .px-1 {
-      list-style: none;
-      width: 25%;
-      float: left;
-      @media (max-width: 768px) {
-        width: 50%;
-      }
-    }
-      .border {
-        display: inline-block;
-        position: relative;
-      }
-      .border::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        box-shadow: inset 0 0 0 0 rgba(255,255,255,.5);
-        transition: box-shadow .1s ease;
-        cursor: pointer;
-      }
-      .border:hover::after {
-        box-shadow: inset 0 0 0 10px rgba(255,255,255,.5);
-      }
-      img {
-        display: block;
-        position: relative;
-      }
-    
-  
-/* SLUT TEST GALLERI */
 
 
 /* Rotera 360 grader */
