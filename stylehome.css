@@ -190,7 +190,7 @@ h2 {
   color: #4b423a;
   font-size: 14px;
   letter-spacing: 2px;
-  font-family: 'lato', sans-serif;
+  font-family: 'Spectral', serif;
 
 }
 
@@ -205,7 +205,7 @@ h4 {
   color: #4b423a;
   font-size: 16px;
   letter-spacing: 2px;
-  font-family: 'lato', sans-serif;
+  font-family: 'Spectral', serif;
 
 }
 
@@ -224,6 +224,7 @@ font-family: 'Amiri', serif;
 font-family: 'Overpass Mono', monospace;
 font-family: 'Crete Round', serif;
 font-family: 'Arbutus Slab', serif;
+font-family: 'Spectral', serif;
 
   font-family: 'puritan', sans-serif;
     font-family: 'lato', sans-serif;
