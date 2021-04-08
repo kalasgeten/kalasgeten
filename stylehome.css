@@ -1,6 +1,6 @@
 body {
   background-color: #fafaf6 !important;
-  font-family: 'lato', sans-serif !important;
+  font-family: 'Spectral', serif !important;
 }
 
 html, body {width: auto!important; overflow-x: hidden!important}
@@ -12,6 +12,16 @@ html {
 
 /* Menyn style */
 
+
+
+@font-face {
+  font-family: 'ramonabold';
+  src: url('/font/webfontkit-20210408-153600/ramona-bold-webfont.woff2') format('woff2'),
+       url('/font/webfontkit-20210408-153600/ramona-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
 /*--------------------------------------------------------------
@@ -181,15 +191,15 @@ html {
 
 h1 {
   color: #4b423a;
-  font-size: 3px;
-  letter-spacing: 2px;
-  font-family: 'Barriecito', cursive;
+  font-size: 54px !important;
+  letter-spacing: 1px;
+  font-family: 'ramonabold';
 }
 
 h2 {
   color: #4b423a;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: 'Spectral', serif;
 
 }
@@ -197,14 +207,14 @@ h2 {
 h3 {
   color:  #4b423a;
   font-size: 24px;
-  letter-spacing: 2px;
-  font-family: 'Barriecito', cursive;
+  letter-spacing: 1px;
+  font-family: 'ramonabold';
 }
 
 h4 {
   color: #4b423a;
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: 'Spectral', serif;
 
 }
@@ -243,10 +253,9 @@ font-family: 'Spectral', serif;
 
 p2 {
   color: #775b44;
-  font-style: italic;
   font-size: 10px;
-  letter-spacing: 2px;
-  font-family: 'lato', sans-serif !important;
+  letter-spacing: 1px;
+  font-family: 'Spectral', serif !important;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -267,9 +276,10 @@ a.footera:hover  {color:rgb(165, 139, 139);}
 p1 {
   color: #775b44;
   font-size: 14px;
-  letter-spacing: 2px;
-  font-family: 'lato', sans-serif;
+  letter-spacing: 1px;
+  font-family: 'Spectral', serif !important;
   text-decoration: none;
+  font-weight: 400;
 }
 
 /* font-family: 'cabin', sans-serif;*/
@@ -278,7 +288,8 @@ p3 {
   color: #775b44;
   font-size: 9px;
   letter-spacing: 1px;
-  font-family: 'lato', sans-serif;
+  font-family: 'Spectral', serif !important;
+  font-weight: 400;
 }
 
 
