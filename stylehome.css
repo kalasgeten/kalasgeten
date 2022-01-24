@@ -29,7 +29,7 @@ html {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #493f37;
+  background: #303030
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
@@ -190,14 +190,14 @@ html {
 
 
 h1 {
-  color: #4b423a;
-  font-size: 50px !important;
+  color: #303030;
+  font-size: 60px !important;
   letter-spacing: 1px;
   font-family: 'ramonabold';
 }
 
 h2 {
-  color: #4b423a;
+  color:  #303030;
   font-size: 14px;
   letter-spacing: 1px;
   font-family: 'Spectral', serif;
@@ -205,14 +205,14 @@ h2 {
 }
 
 h3 {
-  color:  #4b423a;
+  color:   #303030;
   font-size: 24px;
   letter-spacing: 1px;
   font-family: 'ramonabold';
 }
 
 h4 {
-  color: #4b423a;
+  color:  #303030;
   font-size: 16px;
   letter-spacing: 1px;
   font-family: 'Spectral', serif;
@@ -290,6 +290,16 @@ p3 {
   letter-spacing: 1px;
   font-family: 'Spectral', serif !important;
   font-weight: 400;
+}
+
+p4 {
+  color: #3a3a3a;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: 'Spectral', serif !important;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 200;
 }
 
 
@@ -506,7 +516,7 @@ p3 {
 }
 
 .parallax3 {
-  background-image: url(img/visitkort_2.jpg);
+  background-image: url(img/bro_1.jpg);
   min-height: 300px; 
   width: 100%;
   background-attachment: fixed;
