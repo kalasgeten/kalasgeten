@@ -29,7 +29,7 @@ html {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #303030
+  background: #3a3532
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
@@ -224,23 +224,6 @@ h4 {
 
 }
 
-/*
-  'ZCOOL QingKe HuangYou', cursive;
-  font-family: 'Lacquer', cursive;
-  font-family: 'Barriecito', cursive;
-  font-family: 'Do Hyeon', sans-serif;
-   font-family: 'cabin', sans-serif;
-font-family: 'Amiri', serif;
-font-family: 'Overpass Mono', monospace;
-font-family: 'Crete Round', serif;
-font-family: 'Arbutus Slab', serif;
-font-family: 'Spectral', serif;
-
-  font-family: 'puritan', sans-serif;
-    font-family: 'lato', sans-serif;
-
-  */
-
 
 /* Scroll i toppen */
 
@@ -268,13 +251,13 @@ a:hover, a:visited, a:link, a:active
   color: rgb(165, 139, 139);
 }
 
-a.footera:link {color:#775b44;}
-a.footera:visited {color:#775b44;}
+a.footera:link {color: #544f4d;}
+a.footera:visited {color: #544f4d;}
 a.footera:hover  {color:rgb(165, 139, 139);}
 
 
 p1 {
-  color: #775b44;
+  color: #544f4d;
   font-size: 14px;
   letter-spacing: 1px;
   font-family: 'Spectral', serif !important;
@@ -282,10 +265,28 @@ p1 {
   font-weight: 400;
 }
 
-/* font-family: 'cabin', sans-serif;*/
+/* 
+
+no
+font-family: 'Overpass Mono', monospace;
+font-family: 'Crete Round', serif;
+font-family: 'Spectral', serif;
+    font-family: 'lato', sans-serif;
+      font-family: 'Barriecito', cursive;
+        font-family: 'Lacquer', cursive;
+
+maybe
+font-family: 'Arbutus Slab', serif;
+  font-family: 'puritan', sans-serif;
+  font-family: 'Amiri', serif;
+     font-family: 'cabin', sans-serif;
+
+       font-family: 'Do Hyeon', sans-serif;
+
+*/
 
 p3 {
-  color: #775b44;
+  color: #544f4d;
   font-size: 9px;
   letter-spacing: 1px;
   font-family: 'Spectral', serif !important;
@@ -293,13 +294,13 @@ p3 {
 }
 
 p4 {
-  color: #3a3a3a;
-  font-size: 24px;
+  color: #544f4d;
+  font-size: 34px;
   letter-spacing: 1px;
-  font-family: 'Spectral', serif !important;
+  line-height: 115%;
+  font-family: 'spectral' !important;
   text-decoration: none;
-  font-style: italic;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 
