@@ -225,6 +225,7 @@ h4 {
 }
 
 
+
 /* Scroll i toppen */
 
 .roll {
@@ -577,6 +578,10 @@ p4 {
 
   .content img {
     padding: 20px;
+  }
+
+  .linklista {
+    padding: 80px;
   }
 
     .container__text {
