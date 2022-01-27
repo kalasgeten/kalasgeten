@@ -377,6 +377,17 @@ p4 {
   transform: scale(1);
 }
 
+.item .item-wrap video {
+  transition: .3s transform ease;
+  transform: scale(1);
+}
+
+.video-element video {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .item .item-wrap > .work-info {
   position: absolute;
   top: 50%;
@@ -416,6 +427,10 @@ p4 {
   transform: scale(1.05);
 }
 
+.item .item-wrap:hover video {
+  transform: scale(1.05);
+}
+
 .item .item-wrap:hover:after {
   opacity: 1;
   visibility: visible;
@@ -439,6 +454,12 @@ p4 {
 }
 
 .testimonial-wrap .testimonial img {
+  border-radius: 50%;
+  width: 120px;
+  margin: 0 auto 30px auto;
+}
+
+.testimonial-wrap .testimonial video {
   border-radius: 50%;
   width: 120px;
   margin: 0 auto 30px auto;
